@@ -1,0 +1,218 @@
+body{
+  margin:0;
+  text-align:center;
+}
+h1{
+  margin:0;
+  color: #66BFBF;
+  text-align:center;
+  padding-top: 150px;
+  font-family: 'Sacramento', cursive;
+  font-size: 200px;
+}
+h3{
+  margin: 0px;
+  margin:0;
+  color: white;
+  text-align:center;
+  padding-top: 20px;
+  font-family: 'Sacramento', cursive;
+  font-size: 20px;
+}
+p{
+  margin:0;
+  color: white;
+  text-align:center;
+  padding-top: 50px;
+  font-family: 'Sacramento', cursive;
+  font-size: 20px;
+}
+.centre_logo{
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  left: 200px;
+}
+.top_container{
+  background-image: url(intro_logo_bg.png);
+  height: 1000px;
+  width: 100%;
+}
+
+
+.grey_shade {
+  position: relative;
+  top: 850px;
+  height: 150px;
+  background-color:#424642;
+  mix-blend-mode:overlay;
+}
+.grey_img{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  bottom: 50px;
+}
+.middle_container{
+  margin:0px;
+  width: auto;
+  height: 300px;
+  background-color: grey;
+  text-align: right;
+}
+.Who_are_we_text_and_map{
+  width: 50%;
+  bottom: 110px;
+  float:left;
+  position: relative;
+}
+.middle_small_grey{
+  position: absolute;
+  width: 50%;
+  background-color:#232923;
+  mix-blend-mode: overlay;
+  left: 650px;
+  top: 1050px;
+}
+.bottom_container{
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+}
+.products{
+  height: 100%;
+  width:100%;
+}
+.bottom_2{
+  background-color: black;
+  position: relative;
+  top: 730px;
+
+}
+.paragraph_logo{
+
+}
+.ph{
+  display: block;
+  text-align: left;
+  font-family: 'Train One', cursive;
+}
+.name{
+  color: white;
+}
+.contact{
+  text-align:left;
+  background-image: url(intro_logo_bg.png);
+  position: relative;
+  top: 650px;
+}
+
+.BUTTON_GMX {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 17px;
+   font-weight: 100;
+   padding: 14px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_GMX:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.footer_bg{
+  position: relative;
+  bottom: 7px;
+}
+.bottom_3{
+  position:relative;
+  background-image: url(footer_bg.png);
+  bottom: 7px;
+}
+.footer_copyright_dots_right{
+  position: relative;
+  right: 25px;
+}
+.insta{
+  position:relative;
+
+}
+.mail{
+  position: relative;
+
+}
+.linkedin{
+  position: relative;
+
+}
+.social {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	color:#ffb4b4;
+}
+
+.social li {
+  list-style-type: none;
+}
+
+.social li a {
+  margin-right: 20px;
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+.youtube{
+  position: relative;
+	height:40px;
+	width: 30px;
+}
+.instagram{
+  position: relative;
+	height:40px;
+	width: 40px;
+}
+.intro_logo_end{
+  position: relative;
+  height: 50%;
+  width: 50%;
+      bottom: 355px;
+}
+.gif{
+  position: relative;
+  width: 50%;
+  height: 50%;
+  left: 300px;
+}
